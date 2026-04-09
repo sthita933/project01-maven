@@ -56,7 +56,7 @@
 
     <div class="food-card">
         <img src="https://via.placeholder.com/250x150" alt="Pizza">
-        <h3>Pizza</h3>
+        <h3>SUMIT</h3>
         <p>Delicious cheese pizza</p>
         <p><b>₹299</b></p>
         <button class="btn" onclick="order('Pizza')">Order Now</button>
@@ -64,7 +64,7 @@
 
     <div class="food-card">
         <img src="https://via.placeholder.com/250x150" alt="Burger">
-        <h3>Burger</h3>
+        <h3>SAMANTHA</h3>
         <p>Juicy chicken burger</p>
         <p><b>₹199</b></p>
         <button class="btn" onclick="order('Burger')">Order Now</button>
@@ -72,7 +72,7 @@
 
     <div class="food-card">
         <img src="https://via.placeholder.com/250x150" alt="Pasta">
-        <h3>Pasta</h3>
+        <h3>GYANA</h3>
         <p>Creamy white sauce pasta</p>
         <p><b>₹249</b></p>
         <button class="btn" onclick="order('Pasta')">Order Now</button>
