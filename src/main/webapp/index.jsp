@@ -56,7 +56,7 @@
 
     <div class="food-card">
         <img src="https://via.placeholder.com/250x150" alt="Pizza">
-        <h3>SUMIT</h3>
+        <h3>SUMIT-0</h3>
         <p>Delicious cheese pizza</p>
         <p><b>₹299</b></p>
         <button class="btn" onclick="order('Pizza')">Order Now</button>
