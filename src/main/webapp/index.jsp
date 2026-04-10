@@ -64,7 +64,7 @@
 
     <div class="food-card">
         <img src="https://via.placeholder.com/250x150" alt="Burger">
-        <h3>SAMANTHA-0</h3>
+        <h3>KUBEBYTES</h3>
         <p>Juicy chicken burger</p>
         <p><b>₹199</b></p>
         <button class="btn" onclick="order('Burger')">Order Now</button>
