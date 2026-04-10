@@ -22,6 +22,11 @@ pipeline {
                 sh 'mvn clean package'
             }
         }
+         stage('upload to s3') {
+            steps {
+                step([$class: 'S3Publisher', entries: [[bucket: 'uploaded', sourceFile: '**/*.war', destinationBucket: '', selectedRegion: 'ap-south-1', flatten: false, managedArtifacts: true, noUploadOnFailure: false]]])
+            }
+        }
          stage('Deploying code ') {
             steps {
                 sh 'cp target/*.war /home/ubuntu/apache-tomcat-9.0.117/webapps/'
